@@ -16,8 +16,8 @@ sudo -s <<E
 #cat .vimrc >> /etc/vim/vimrc
 E
 
-sudo apt-get install bcmwl-kernel-source
-sudo modprobe -r b43 ssb wl
-sudo modprobe wl
-sudo mv m1330.conf /etc/modprobe.d
+#sudo apt-get install bcmwl-kernel-source
+#sudo modprobe -r b43 ssb wl
+#sudo modprobe wl
+#sudo cp m1330.conf /etc/modprobe.d
 
