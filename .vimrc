@@ -1,4 +1,5 @@
 
+" xbmod
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 set nu
 filetype plugin indent on
